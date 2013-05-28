@@ -1,0 +1,9 @@
+[submodule "Android"]
+	path = Android
+	url = git://github.com/jschmid/WhereAreYou-Android.git
+[submodule "Web"]
+	path = Web
+	url = git://github.com/jschmid/WhereAreYou-Web.git
+[submodule "iOS"]
+	path = iOS
+	url = git://github.com/jschmid/WhereAreYou-iOS.git
