@@ -1,4 +1,7 @@
 WhereAreYou
 ===========
 
-Regroup all version of WhereAreyou
+Regroups all version of WhereAreyou.
+
+    git submodule init
+    git submodule update
