@@ -36,7 +36,7 @@
 
 <p>WhereAreyou is a service that allows you to share your location to your contacts with instant updates. It is available on <a href="http://goo.gl/U0yzI">the web</a>, on <a href="http://goo.gl/fDa2g">Android</a> and an iOS version is in development.</p>
 
-<p>It <strong>does not</strong> constantly poll for your location and update it to the server. It is designed to be a <em>one time usage</em> app. Imagine your are at a music festival and want to find your friends:</p>
+<p>It is designed to be a <em>one time use</em> app. It <strong>does not</strong> constantly poll for your location and update it to the server. Imagine your are at a music festival and want to find your friends:</p>
 
 <ul>
 <li>Start the app: a private room is created for you</li>
@@ -44,13 +44,23 @@
 <li>Everyone opens the app with the private room. Their position is updated in real time</li>
 <li>Regroup with your friends</li>
 <li><strong>That's it: you found your friends!</strong></li>
-<li>Close the app, the room is closed forever</li>
-</ul><p><img src="https://raw.github.com/jschmid/WhereAreYou/master/assets/logo.png" alt="Where Are You logo"></p>
+<li>Close the app: the room is closed forever, the app stops sending your position</li>
+</ul><p>No sign-up is needed. Your friends that do not have the app can use the web version and don't have to download the app before being able to share their position with you. </p>
+
+<p><img src="assets/logo.png" alt="Where Are You logo"></p>
 
 <h2>
 <a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
 
-<p>Setup your environment with:</p>
+<p>WhereAreYou uses <a href="https://www.firebase.com/">Firebase</a> to power the real time position updates.</p>
+
+<p>If you are interested in a particular platform, your can clone their own git repo:</p>
+
+<ul>
+<li><a href="https://github.com/jschmid/WhereAreYou-Android">Android</a></li>
+<li><a href="https://github.com/jschmid/WhereAreYou-iOS">iOS</a></li>
+<li><a href="https://github.com/jschmid/WhereAreYou-Web">Web</a></li>
+</ul><p>If you are interested in all platforms, you can use this particular git repo that contains all platforms as submobules. Setup your environment with:</p>
 
 <pre><code>git clone git@github.com:jschmid/WhereAreYou.git
 git submodule init
@@ -60,10 +70,10 @@ git submodule update
 <h3>
 <a name="update-the-submodules" class="anchor" href="#update-the-submodules"><span class="octicon octicon-link"></span></a>Update the submodules</h3>
 
+<p>Git submodules stay with a specific version. To update the projects and commit them back to Github, execute:</p>
+
 <pre><code>./update.sh
 </code></pre>
-
-<p>This will update the projects and commit them back to Github.</p>
         </section>
 
         <footer>
