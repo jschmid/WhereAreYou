@@ -13,7 +13,7 @@ It is designed to be a *one time use* app. It **does not** constantly poll for y
 
 No sign-up is needed. Your friends that do not have the app can use the web version and don't have to download the app before being able to share their position with you. 
 
-![Where Are You logo](assets/logo.png)
+![Where Are You logo](https://raw.github.com/jschmid/WhereAreYou/master/assets/logo.png)
 
 ## Development
 
