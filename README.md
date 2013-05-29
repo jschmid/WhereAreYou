@@ -36,3 +36,7 @@ If you are interested in all platforms, you can use this particular git repo tha
 Git submodules stay with a specific version. To update the projects and commit them back to Github, execute:
 
     ./update.sh
+  
+# License
+
+MIT. See [LICENSE file](LICENSE).
