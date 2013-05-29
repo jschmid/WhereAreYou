@@ -1,6 +1,6 @@
 # WhereAreYou
 
-WhereAreyou is a service that allows you to share your location to your contact with instant updates. It is available on [the web](http://goo.gl/U0yzI), on [Android](http://goo.gl/fDa2g) and an iOS version is in development.
+WhereAreyou is a service that allows you to share your location to your contacts with instant updates. It is available on [the web](http://goo.gl/U0yzI), on [Android](http://goo.gl/fDa2g) and an iOS version is in development.
 
 It **does not** constantly poll for your location and update it to the server. It is designed to be a *one time usage* app. Imagine your are at a music festival and want to find your friends:
 
